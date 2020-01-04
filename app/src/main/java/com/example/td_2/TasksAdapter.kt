@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.item_task.view.*
 
-class TasksAdapter(val tasks: List<Task>) : RecyclerView.Adapter<TasksAdapter.TaskViewHolder>() {
+class TasksAdapter(val tasks : List<Task>) : RecyclerView.Adapter<TasksAdapter.TaskViewHolder>() {
     override fun onBindViewHolder(holder: TaskViewHolder, position: Int) {
 
         val task = tasks[position]

@@ -4,7 +4,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.launch
-import network.TasksRepository
+import com.example.td_2.network.TasksRepository
 
 class TasksViewModel: ViewModel() {
     val taskListLiveData = MutableLiveData<List<Task>?>()
@@ -38,4 +38,5 @@ class TasksViewModel: ViewModel() {
             }
         }
     }
+}
 

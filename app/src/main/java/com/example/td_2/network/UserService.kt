@@ -1,4 +1,4 @@
-package network
+package com.example.td_2.network
 
 import retrofit2.Response
 import retrofit2.http.GET

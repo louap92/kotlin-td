@@ -1,4 +1,4 @@
-package network
+package com.example.td_2.network
 
 import com.example.td_2.Task
 import retrofit2.Response
@@ -14,5 +14,5 @@ interface TaskService {
     suspend fun createTask(@Body task: Task): Response<Task>
 
     @PATCH("tasks/{id}")
-    suspend fun updateTask(@Body task: Task, @Path("id") id: String = task.id): Response<Task>
+    suspend fun updateTask(@Body task: Task, @Path("id") id: String? = task.id): Response<Task>
 }

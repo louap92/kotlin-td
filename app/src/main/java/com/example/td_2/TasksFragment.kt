@@ -12,10 +12,8 @@ import kotlinx.android.synthetic.main.fragment_tasks.*
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.cancel
 import kotlinx.coroutines.launch
-import network.Api
-import network.TasksRepository
 import com.example.td_2.network.Api
-import com.example.td_2.network.TasksViewModel
+import com.example.td_2.network.TasksRepository
 
 private val cocoScope = MainScope()
 private val tasksRepository = TasksRepository()

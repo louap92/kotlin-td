@@ -1,4 +1,4 @@
-package network
+package com.example.td_2.network
 
 import com.squareup.moshi.Json
 
